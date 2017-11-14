@@ -1,18 +1,24 @@
 {
-  "name": "vex",
+  "name": "dreamshare",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "jquery": "^3.2.1",
-    "slick-carousel": "^1.8.1",
-    "zurb-foundation-5": "^5.4.7"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass -w assets/scss/styles.scss:assets/css/styles.css"
+    "sass": "sass -w assets/scss/styles.scss:assets/css/styles.css --style=compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshrcook/dreamshare.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshrcook/dreamshare/issues"
+  },
+  "homepage": "https://github.com/joshrcook/dreamshare#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "zurb-foundation-5": "^5.4.7"
+  }
 }
